@@ -16,7 +16,7 @@ int main()
 	worker = new Employee(1,"ÕÅÈý",1);
 	worker->showInfo();
 
-	/*while (true)
+	while (true)
 	{
 		wm.showMenu();
 
@@ -44,7 +44,7 @@ int main()
 		default:
 			system("cls");
 			break;
-		}*/
+		}
 
 
 	system("pause");
