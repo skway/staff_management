@@ -7,20 +7,20 @@ using namespace std;
 
 int main()
 {
-
+	//it is a test.
 
 	WorkerManager wm;
 	int choice = 0;
 	
 	Worker * worker = NULL;
-	worker = new Employee(1,"ÕÅÈý",1);
+	worker = new Employee(1,"ï¿½ï¿½ï¿½ï¿½",1);
 	worker->showInfo();
 
 	while (true)
 	{
 		wm.showMenu();
 
-		cout << "ÇëÊäÈëÑ¡Ïî" << endl;
+		cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½" << endl;
 		cin >> choice;
 		switch (choice)
 		{
